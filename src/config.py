@@ -1,0 +1,18 @@
+class Config:
+    IMAGES_DIR = "data/images"
+    ARTIFACTS_DIR = "artifacts"
+    IMG_SIZE = 96
+    BATCH_SIZE = 32
+    NUM_EPOCHS = 30
+    LEARNING_RATE = 0.001
+    WEIGHT_DECAY = 0.0001
+    DROPOUT = 0.3
+    CNN_CHANNELS = [16, 32, 64]
+    EMBEDDING_DIM = 64
+    TL_HIDDEN_DIM = 128
+    NUM_WORKERS = 2
+    TRAIN_RATIO = 0.8
+    VAL_RATIO = 0.1
+    TEST_RATIO = 0.1
+    FLIP_PROB = 0.5
+    COLOR_JITTER = 0
