@@ -11,6 +11,7 @@ class Config:
     EMBEDDING_DIM = 64
     TL_HIDDEN_DIM = 128
     NUM_WORKERS = 2
+    DEVICE = "cuda"
     TRAIN_RATIO = 0.8
     VAL_RATIO = 0.1
     TEST_RATIO = 0.1
