@@ -1,0 +1,10 @@
+torch>=2.0
+torchvision>=0.15
+tensorboard
+numpy
+Pillow
+imageio
+matplotlib
+cairosvg
+imagehash
+GitPython
