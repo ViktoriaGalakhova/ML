@@ -1,6 +1,6 @@
 import pandas as pd
 from pathlib import Path
-from config import Config
+from src.collecting.config import Config
 import math
 
 SEED = 42
