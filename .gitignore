@@ -1,0 +1,27 @@
+# Datasets (downloaded or generated locally, never committed)
+data/
+**/collecting/data_raw/
+**/collecting/data_processed/
+
+# Training artifacts
+artifacts/*.pth
+artifacts/*.pt
+artifacts/*.npy
+artifacts/tb/
+artifacts/tb_runs/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+venv*/
+.venv/
+.venv*/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
